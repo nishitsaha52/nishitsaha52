@@ -18,7 +18,7 @@ Welcome to my GitHub profile! I'm a passionate learner and creator, exploring th
 
 #### 🛠️ Tech Stack
 - **Languages:** Python, JavaScript, Java, C++
-- **Frameworks:** React, Node.js, Express
+- **Frameworks:** React, Node.js, Express, Next.js
 - **Tools:** Git, Docker, VS Code
 - **Databases:** MySQL, MongoDB
 
