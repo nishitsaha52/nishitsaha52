@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://via.placeholder.com/1024x200.png?text=Your+Custom+Banner+Here" alt="Banner" width="100%" />
+  <img src="https://github.com/nishitsaha52/nishitsaha52/blob/main/Make%20your%20README%20(1).png" alt="Banner" width="100%" />
 </p>
 
 <h1 align="center">⚡ Hey there, I'm Nishit Ranjan Saha! 👋 ⚡</h1>
