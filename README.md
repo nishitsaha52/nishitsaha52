@@ -49,20 +49,6 @@
 
 ---
 
-### 📈 My Achievements
-- 🏆 **Winner** of [Tech Innovation Hackathon 2023](https://example.com) 🏆
-- 🎓 Completed **Full Stack Development Certification** at [freeCodeCamp](https://www.freecodecamp.org).
-- 🎤 Speaker at [CodeCon 2024](https://example.com) on **Modern Web Development Practices**.
-
----
-
-### 🏆 GitHub Contributions
-<p align="center">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=nishitsaha52&theme=react-dark&bg_color=000000&color=2f80ed&line=2f80ed&point=4cd4f5" alt="GitHub Contributions" width="100%" />
-</p>
-
----
-
 ### 💬 Connect with Me
 
 <p align="center">
@@ -82,28 +68,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nishitsaha52&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" width="49%" />
 </p>
-
----
-
-### 📚 Featured Projects
-
-**[Inventory Management System](https://github.com/nishitsaha52/inventory-management)**
-- Developed a MERN stack inventory system for tracking products, orders, shipments, and generating reports.
-- Tech Stack: React, Node.js, Express, MongoDB, and Docker.
-
-**[Event Management Platform](https://github.com/nishitsaha52/event-management)**
-- Built a platform for event creation, ticket sales, attendee management, invitations, and event analytics.
-- Tech Stack: React, Node.js, Express, MongoDB.
-
----
-
-### 🚀 Skills Progress Bar
-| Skill | Progress |
-|-------|----------|
-| React | ![React](https://img.shields.io/badge/React-70%25-brightgreen) |
-| JavaScript | ![JavaScript](https://img.shields.io/badge/JavaScript-80%25-brightgreen) |
-| Node.js | ![Node.js](https://img.shields.io/badge/Node.js-75%25-yellowgreen) |
-| MongoDB | ![MongoDB](https://img.shields.io/badge/MongoDB-65%25-yellow) |
 
 ---
 
