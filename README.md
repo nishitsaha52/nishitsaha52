@@ -62,7 +62,7 @@
 
 <h2 align="center">⚡ Current Stats ⚡</h2>
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=nishitsaha52&count_private=true&theme=react&border_radius=10" alt="streak stats" width="49%" height="50%" />
+  <img src="https://streak-stats.demolab.com/?user=nishitsaha52&count_private=true&theme=react&border_radius=10" alt="streak stats" width="49%" />
   <img src="https://github-readme-stats.vercel.app/api?username=nishitsaha52&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" width="49%" />
 </p>
 <p align="center">
