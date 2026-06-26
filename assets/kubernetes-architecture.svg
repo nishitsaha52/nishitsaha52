@@ -1,0 +1,65 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kubernetes AI SRE Agent Architecture</title>
+  <desc id="desc">Architecture diagram showing users, API, intent routing, RAG, LLM APIs, Redis, Kubernetes diagnostics, GitOps, and observability.</desc>
+  <defs>
+    <style>
+      .box{fill:#0F172A;stroke:#334155;stroke-width:2}
+      .accent{stroke:#38BDF8;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .green{stroke:#22C55E;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .gold{stroke:#F59E0B;stroke-width:3;fill:none;marker-end:url(#arrow)}
+      .label{fill:#E5E7EB;font:700 20px Segoe UI,Arial,sans-serif}
+      .sub{fill:#94A3B8;font:15px Segoe UI,Arial,sans-serif}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38BDF8"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="680" fill="#07111F"/>
+  <text x="44" y="56" fill="#F8FAFC" font-family="Segoe UI,Arial,sans-serif" font-size="32" font-weight="800">AI-Powered Kubernetes SRE Agent</text>
+  <text x="44" y="88" class="sub">RAG diagnostics, LLM intent routing, GitOps deployment, SLO-aware observability</text>
+  <rect x="58" y="142" width="208" height="116" rx="16" class="box"/>
+  <text x="90" y="187" class="label">Users</text>
+  <text x="90" y="218" class="sub">CLI + Web UI</text>
+  <rect x="340" y="132" width="230" height="136" rx="16" class="box"/>
+  <text x="374" y="176" class="label">Agent API</text>
+  <text x="374" y="207" class="sub">Python services</text>
+  <text x="374" y="231" class="sub">Auth, sessions, audit</text>
+  <rect x="650" y="132" width="230" height="136" rx="16" class="box"/>
+  <text x="686" y="176" class="label">Intent Router</text>
+  <text x="686" y="207" class="sub">Pod, node, service</text>
+  <text x="686" y="231" class="sub">workflow routing</text>
+  <rect x="956" y="132" width="190" height="136" rx="16" class="box"/>
+  <text x="986" y="176" class="label">LLM APIs</text>
+  <text x="986" y="207" class="sub">Gemini API</text>
+  <text x="986" y="231" class="sub">OpenAI API</text>
+  <rect x="340" y="346" width="230" height="134" rx="16" class="box"/>
+  <text x="374" y="388" class="label">RAG Layer</text>
+  <text x="374" y="420" class="sub">Runbooks, logs</text>
+  <text x="374" y="444" class="sub">cluster context</text>
+  <rect x="650" y="346" width="230" height="134" rx="16" class="box"/>
+  <text x="686" y="388" class="label">Redis Cache</text>
+  <text x="686" y="420" class="sub">LLM response cache</text>
+  <text x="686" y="444" class="sub">latency reduction</text>
+  <rect x="956" y="346" width="190" height="134" rx="16" class="box"/>
+  <text x="986" y="388" class="label">Kubernetes</text>
+  <text x="986" y="420" class="sub">AKS, EKS, GCP</text>
+  <text x="986" y="444" class="sub">diagnostics</text>
+  <rect x="58" y="542" width="316" height="90" rx="16" class="box"/>
+  <text x="90" y="584" class="label">GitOps Delivery</text>
+  <text x="90" y="613" class="sub">GitHub Actions, Jenkins, ArgoCD, Helm</text>
+  <rect x="444" y="542" width="316" height="90" rx="16" class="box"/>
+  <text x="476" y="584" class="label">Observability</text>
+  <text x="476" y="613" class="sub">Prometheus, Loki, Grafana, OTel</text>
+  <rect x="830" y="542" width="316" height="90" rx="16" class="box"/>
+  <text x="862" y="584" class="label">Reliability</text>
+  <text x="862" y="613" class="sub">SLO/SLI, rollback, RCA, autoscaling</text>
+  <path d="M266 200 H340" class="accent"/>
+  <path d="M570 200 H650" class="accent"/>
+  <path d="M880 200 H956" class="accent"/>
+  <path d="M455 268 V346" class="green"/>
+  <path d="M570 413 H650" class="green"/>
+  <path d="M880 413 H956" class="gold"/>
+  <path d="M216 542 V506 H1051 V480" class="gold"/>
+  <path d="M602 542 V506" class="green"/>
+  <path d="M988 542 V480" class="accent"/>
+</svg>

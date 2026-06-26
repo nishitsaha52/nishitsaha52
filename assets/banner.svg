@@ -1,0 +1,58 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nishit Ranjan Saha GitHub profile banner</title>
+  <desc id="desc">Animated dark banner for DevOps, AI infrastructure, and MLOps.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#0E1B2D"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="80" y1="90" x2="1320" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 L0 0 0 44" fill="none" stroke="#263B57" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1400" height="420" fill="url(#bg)"/>
+  <rect width="1400" height="420" fill="url(#grid)" opacity="0.6"/>
+  <path d="M80 318 C250 202 380 384 552 260 C730 132 872 318 1034 184 C1154 84 1254 132 1334 78" stroke="url(#accent)" stroke-width="5" stroke-linecap="round" opacity="0.92" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="0 1600;340 1600;700 1600" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-dashoffset" values="0;-220;-520" dur="7s" repeatCount="indefinite"/>
+  </path>
+  <rect x="92" y="82" width="420" height="232" rx="18" fill="#0B1626" stroke="#25415F"/>
+  <text x="126" y="138" fill="#E5EDF7" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Nishit Ranjan Saha</text>
+  <text x="126" y="180" fill="#9AB3CF" font-family="Segoe UI, Arial, sans-serif" font-size="20">DevOps Engineer</text>
+  <text x="126" y="212" fill="#9AB3CF" font-family="Segoe UI, Arial, sans-serif" font-size="20">AI/ML Infrastructure</text>
+  <text x="126" y="244" fill="#9AB3CF" font-family="Segoe UI, Arial, sans-serif" font-size="20">MLOps Engineer</text>
+  <rect x="126" y="270" width="232" height="2" fill="url(#accent)">
+    <animate attributeName="width" values="80;232;140;232" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <g transform="translate(755 92)">
+    <rect x="0" y="0" width="510" height="228" rx="18" fill="#0B1626" stroke="#25415F"/>
+    <circle cx="64" cy="70" r="28" fill="#0F2740" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="214" cy="70" r="28" fill="#0E2A2A" stroke="#22C55E" stroke-width="2"/>
+    <circle cx="364" cy="70" r="28" fill="#2D2412" stroke="#F59E0B" stroke-width="2"/>
+    <path d="M92 70 H186" stroke="#5F7896" stroke-width="3" stroke-dasharray="8 8">
+      <animate attributeName="stroke-dashoffset" values="0;-32" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M242 70 H336" stroke="#5F7896" stroke-width="3" stroke-dasharray="8 8">
+      <animate attributeName="stroke-dashoffset" values="0;-32" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <text x="36" y="142" fill="#DDE8F3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">GitOps</text>
+    <text x="178" y="142" fill="#DDE8F3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">K8s</text>
+    <text x="326" y="142" fill="#DDE8F3" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600">AI SRE</text>
+    <text x="44" y="184" fill="#91A8C2" font-family="Segoe UI, Arial, sans-serif" font-size="15">CI/CD</text>
+    <text x="172" y="184" fill="#91A8C2" font-family="Segoe UI, Arial, sans-serif" font-size="15">SLO/SLI</text>
+    <text x="310" y="184" fill="#91A8C2" font-family="Segoe UI, Arial, sans-serif" font-size="15">RAG + LLMOps</text>
+  </g>
+</svg>

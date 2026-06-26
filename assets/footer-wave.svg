@@ -1,0 +1,11 @@
+<svg width="1400" height="180" viewBox="0 0 1400 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Animated wave footer</title>
+  <rect width="1400" height="180" fill="#07111F"/>
+  <path d="M0 74 C180 130 282 26 458 80 C640 136 756 38 934 78 C1104 116 1198 116 1400 58 V180 H0 Z" fill="#0B253D" opacity="0.95">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="M0 74 C180 130 282 26 458 80 C640 136 756 38 934 78 C1104 116 1198 116 1400 58 V180 H0 Z;M0 84 C198 38 308 132 488 76 C674 20 764 124 952 84 C1122 48 1228 42 1400 88 V180 H0 Z;M0 74 C180 130 282 26 458 80 C640 136 756 38 934 78 C1104 116 1198 116 1400 58 V180 H0 Z"/>
+  </path>
+  <path d="M0 110 C210 72 330 148 520 108 C730 64 820 154 1010 106 C1180 64 1288 76 1400 102 V180 H0 Z" fill="#0E3A3B" opacity="0.75">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="M0 110 C210 72 330 148 520 108 C730 64 820 154 1010 106 C1180 64 1288 76 1400 102 V180 H0 Z;M0 104 C210 154 340 70 536 112 C714 150 840 58 1024 112 C1194 160 1290 128 1400 92 V180 H0 Z;M0 110 C210 72 330 148 520 108 C730 64 820 154 1010 106 C1180 64 1288 76 1400 102 V180 H0 Z"/>
+  </path>
+  <text x="700" y="118" text-anchor="middle" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Building reliable platforms for intelligent systems</text>
+</svg>
