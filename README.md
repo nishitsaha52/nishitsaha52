@@ -361,10 +361,6 @@ flowchart LR
   <img src="https://raw.githubusercontent.com/nishitsaha52/nishitsaha52/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution calendar" />
-</div>
-
 ---
 
 ## Certifications
@@ -402,7 +398,7 @@ flowchart LR
 
 ```text
 Automate repeatable work.
-Make production behavior observable.
+Make production behaviour observable.
 Design for rollback before release.
 Treat reliability as a feature.
 Bridge AI capability with platform discipline.
